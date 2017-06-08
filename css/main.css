@@ -38,9 +38,67 @@
 .font-timberwolf {
   color: #d6d9ce;
 }
+
 .font-white{
 	color: #fff;
 }
+
+
+.font-white {
+  color: white;
+}
+
+/* ------Inicia Clases Magenta------ */
+.fondo-azul-oscuro {
+  background-color: #171d2d;
+}
+
+.fondo-midnight-green {
+  background-color: #084c61;
+}
+
+.fondo-sea-blue {
+  background-color: #086788;
+}
+
+.fondo-electric-blue {
+  background-color: #0e8dd1;
+}
+
+.fondo-timberwolf {
+  background-color: #d6d9ce;
+}
+
+.font-azul-oscuro {
+  color: #171d2d;
+}
+
+.font-midnight-green {
+  color: #084c61;
+}
+
+.font-sea-blue {
+  color: #086788;
+}
+
+.font-electric-blue {
+  color: #0e8dd1;
+}
+
+.font-timberwolf {
+  color: #d6d9ce;
+}
+
+.font-white{
+	color: #fff;
+}
+
+
+.font-white {
+  color: white;
+}
+
+
 .index-background-color {
   width: 100vw;
   height: 100vh;
@@ -79,6 +137,12 @@
 .btn-sideMargin {
   margin: 0 10px;
 }
+
+.btn-bottomMargin {
+  padding-bottom: 20px;
+}
+
+
 /* ------Termina Clases Magenta------ */
 
 /* -----Clases Mariana-----*/
@@ -105,12 +169,12 @@
 #geolocation_mapDriver, #map_route {
   display: block;
 	width: 95%;
-	height: 350px;
+	height: 450px;
 	margin: 0 auto;
 	-moz-box-shadow: 0px 5px 20px #ccc;
 	-webkit-box-shadow: 0px 5px 20px #CCC;
 	box-shadow: 0px 5px 20px #CCC;
-  border: 5px solid #0e8dd13;
+  border: 5px solid #0e8dd1;
 }
 
 #geolocation_mapDriver {
@@ -126,3 +190,115 @@
 	width: 100%;
 }
 
+.usuario_imagen {
+  width: 50%;
+  height: 50%;
+}
+
+.down{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}
+
+.index-background-color {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top, #086788 -25%, #171d2d 100%);
+  background-repeat: no-repeat;
+}
+
+.index-logo-texto{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-texto {
+  font-size: 30px;
+  color: #d6d9ce;
+  padding: 25px;
+  border: 3px solid #d6d9ce;
+  border-radius: 10px;
+}
+
+.index-centerHV {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-quieresSer {
+  margin: 0 0 50px 0;
+}
+
+.btn-sideMargin {
+  margin: 0 10px;
+}
+
+.btn-bottomMargin {
+  padding-bottom: 20px;
+}
+
+
+/* ------Termina Clases Magenta------ */
+
+/* -----Clases Mariana-----*/
+
+
+.white-text {
+  color: white;
+}
+
+.bottom-space {
+  margin-bottom: 0;
+  width: 100%;
+  height: 40vh;
+}
+
+/*Termina Clases Mariana*/
+
+/*-------clases user-signup------*/
+.arrow-prev{
+	font-size: 3rem;
+}
+
+/* -----Clases Grace-----*/
+#geolocation_mapDriver, #map_route {
+  display: block;
+	width: 95%;
+	height: 450px;
+	margin: 0 auto;
+	-moz-box-shadow: 0px 5px 20px #ccc;
+	-webkit-box-shadow: 0px 5px 20px #CCC;
+	box-shadow: 0px 5px 20px #CCC;
+  border: 5px solid #0e8dd1;
+}
+
+#geolocation_mapDriver {
+    background: #58B;
+}
+
+.btn-driverService, .btn-driverServiceMap {
+  margin: 5%;
+}
+ /*-----clases user-service-----*/
+.map-user-service{
+	height: 50vh;
+	width: 100%;
+}
+
+.usuario_imagen {
+  width: 50%;
+  height: 50%;
+}
+
+.down{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}
