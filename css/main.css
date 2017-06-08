@@ -82,6 +82,16 @@
 
 /* -----Clases Mariana-----*/
 
+/* -----Clases Pari-----*/
+.driverConfirm-altura{
+  margin-top: 35%;
+}
+#validar{
+background-color: #0e8dd1;
+}
+
+/* -----Termina Clases Pari-----*/
+
 /*-------clases user-signup------*/
 .arrow-prev{
 	font-size: 3rem;
