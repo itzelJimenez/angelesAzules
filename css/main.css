@@ -42,3 +42,14 @@
 
 /* -----Clases Mariana-----*/
 
+.white-text {
+  color: white;
+}
+
+.bottom-space {
+  margin-bottom: 0;
+  width: 100%;
+  height: 40vh;
+}
+
+/*Termina Clases Mariana*/
