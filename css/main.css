@@ -39,6 +39,10 @@
   color: #d6d9ce;
 }
 
+.font-white {
+  color: white;
+}
+
 .index-background-color {
   width: 100vw;
   height: 100vh;
@@ -77,12 +81,10 @@
 .btn-sideMargin {
   margin: 0 10px;
 }
-/* ------Termina Clases Magenta------ */
 
-
-/* -----Clases Mariana-----*/
-
-/*-------clases user-signup------*/
-.arrow-prev{
-	font-size: 3rem;
+.btn-bottomMargin {
+  padding-bottom: 20px;
 }
+
+
+/* ------Termina Clases Magenta------ */
