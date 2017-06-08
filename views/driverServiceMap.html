@@ -4,14 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../css/'..editar..'.css">
+  <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/sweetalert.css">
   <title>Document</title>
 </head>
 <body>
-
+    <div id="map_route" class="map_route"></div>
+    <div class="center-align fondo-sea-blue down">
+      <a class="waves-effect waves-light btn btn-driverServiceMap" href="#modal1">Finalizar Viaje</a>
+    </div>
+    <div>
+      <ul class="collection">
+        <li class="collection-item avatar">
+          <i class="material-icons circle">perm_identity</i>
+          <span class="title">Estás conduciendo para: </span>
+          <h5>Nombre de usuario
+          </h5>
+          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+        </li>
+      </ul>
+  </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVoXCGvFtKpuXFsNasBsG-hIjFI4GgvMM"
+  type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script  src="../js/gmaps.js"></script>
   <script src="../js/jquery-3.2.1.min.js" charset="utf-8"></script>
   <script src="../js/materialize.min.js" charset="utf-8"></script>
-  <script src="../js/'..editar..'.js" charset="utf-8"></script>
+  <script src="../js/sweetalert.min.js" charset="utf-8"></script>
+  <script src="../js/driverServiceMap.js" charset="utf-8"></script>
 </body>
 </html>
