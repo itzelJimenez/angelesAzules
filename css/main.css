@@ -39,3 +39,23 @@
   color: #d6d9ce;
 }
 /* ------Termina Clases Magenta------ */
+#geolocation_mapDriver, #map_route {
+  display: block;
+	width: 95%;
+	height: 350px;
+	margin: 0 auto;
+	-moz-box-shadow: 0px 5px 20px #ccc;
+	-webkit-box-shadow: 0px 5px 20px #CCC;
+	box-shadow: 0px 5px 20px #CCC;
+  border: 5px solid #0e8dd13;
+}
+
+#geolocation_mapDriver {
+    background: #58B;
+}
+
+.btn-driverService, .btn-driverServiceMap {
+  margin: 5%;
+}
+
+/* ------Termina Clases Grace------ */
