@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Cabin|Hind|Lora" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection"/>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="stylesheet" type="text/css" href="../css/sweetalert.css">
+	  <title>Sing Up</title>
+	</head>
+	<body class="driverSingup-html">
+		<header class="row">
+			<div class="col s1 fondo-sea-blue center">
+				<a href="#driverInit.html"><h4 class="white-text"><</h4></a>
+			</div>
+		    <div class="col s11 fondo-sea-blue center">
+		      <h4 class="white-text">Angeles azules</h4>
+		    </div>
+		    <div class="col s12 fondo-electric-blue center">
+		      <h5 class="white-text">Registrate como Ángel Azul</h5>
+		    </div>
+		</header>
+		<section class="container">
+				<section class="row driverSingup-div-titulo" id="cuentaConductor">
+				    <form class="col s8 offset-s2">
+					    <div class="row">
+					        <div class="input-field">
+					          <i class="material-icons prefix">account_circle</i>
+					          <input required="" id="icon_prefix" type="text" class="validate" maxlength="10">
+					          <label for="icon_prefix">Nombre</label>
+					        </div>
+					    </div>
+						<div class="row">
+					        <div class="input-field">
+					          <i class="material-icons prefix">account_circle</i>
+					          <input required="" id="icon_prefix" type="text" class="validate" maxlength="20">
+					          <label for="icon_prefix">Apellidos</label>
+					        </div>
+					    </div>
+					    <div class="row">
+					        <div class="input-field">
+					          <i class="material-icons prefix">email</i>
+					          <input required="" id="icon_prefix" type="email" class="validate">
+					          <label for="icon_prefix">Correo electrónico</label>
+					        </div>
+					    </div>
+					    <div class="row">
+					        <div class="input-field">
+					          <i class="material-icons prefix">phone</i>
+					          <input required="" id="icon_prefix" type="text" class="validate" maxlength="10">
+					          <label for="icon_prefix">Teléfono</label>
+					        </div>
+					    </div>
+					    <div class="row">
+					        <div class="input-field">
+					          <i class="material-icons prefix">visibility</i>
+					          <input required="" id="icon_prefix" type="password" class="validate">
+					          <label for="icon_prefix">Contraseña</label>
+					        </div>
+					    </div>
+					    <div class="row">
+					    	<div class="input-field">
+						    	<p>
+							      <input required="" type="checkbox" id="test5" class="validate" />
+							      <label for="test5">¡Si, quiero ser un <a href="#">Angel azul!.</a></label>
+							    </p>
+						    </div>
+					    </div>
+					    <div class="row hide" id="contBtnSubir">
+							<a href="#subirArchivos" class="waves-effect waves-light btn col offset-s4"><i class="material-icons right">cloud</i>Subir mis Documentos</a>
+						</div>
+					    <div class="row">
+					    	<div class="input-field">
+						    	<p>
+							      <input required="" type="checkbox" id="test6" class="validate" />
+							      <label for="test6">He leído y acepto los <a href="#terminos">Terminos y condiciones</a></label>
+							    </p>
+						    </div>
+					    </div>	
+				      </div>
+				    </form>
+				</section>
+				<div class="row valign-wrapper">
+					<span class="col s12 center-align">
+						<a href="driverService.html" class="btn waves-effect" type="submit" id="enviarCodigo"><i class="material-icons right">send</i>Siguiente</a>
+					</span>
+				</div>
+			</section>
+		  	<section id="subirArchivos" class="modal modal-fixed-footer">
+			    <div class="modal-content">
+			    	<h5>Por favor adjnta los archivos que se te solicitan</h5>
+			      	  <form action="#">
+			      	  	<h6>Licencia de Conducir</h6>
+					    <div class="file-field input-field">
+					      <div class="btn">
+					        <span>File</span>
+					        <input type="file">
+					      </div>
+					      <div class="file-path-wrapper">
+					        <input class="file-path validate" type="text">
+					      </div>
+					    </div>
+					    <h6>Carta de no antecedentes Penales</h6>
+					    <div class="file-field input-field">
+					      <div class="btn">
+					        <span>File</span>
+					        <input type="file">
+					      </div>
+					      <div class="file-path-wrapper">
+					        <input class="file-path validate" type="text">
+					      </div>
+					    </div>
+					  </form>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Acepto</a>
+			    </div>
+			</section>
+			<div id="terminos" class="modal bottom-sheet">
+			    <div class="modal-content">
+			      <h4>Terminos y condiciones</h4>
+			      <p>Las ganancias de referido no serán válidas para conductores vinculados bajo su propia cuenta de socio.
+					No puedes solicitar viajes a tus propios referidos para que lleguen al primer viaje ó a los viajes requeridos.  
+					Tu cuenta tiene que estar activa (tener por lo menos un viaje) en el momento que tu referido complete los viajes. Si tu cuenta no esta activa, tu pago no será efectuado.
+					El socio referido deberá insertar el código de referido al registrarse para activar el incentivo. En caso de que el código de referido no sea insertado de manera apropiada no se hará el pago.
+					Esta oferta no incluye referidos de otras aplicaciones (e.g DOST: Aplicación de Referidor Independiente).
+					Los términos de la campañas de referidos son específicos para cada ciudad. Los detalles de cada campaña a la cual seas elegible serán los que recibas por correo electrónico.. Por lo tanto, sólo podrás participar en la campaña de la ciudad donde te encuentres registrado.
+					Durante la campaña, las recompensas por referidos se pagarán por cada referido, cada dos semanas después de que tu referido haya realizado sus viajes requeridos siempre que el referido complete los viajes antes de las 24:00 horas del domingo inmediato anterior. En caso contrario, se pagarán hasta el día Jueves de la semana siguiente</p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Acepto</a>
+			    </div>
+			  </div>
+	  <script src="../js/jquery-3.2.1.min.js"></script>
+	  <script src="../js/materialize.min.js"></script>
+	  <script src="../js/driversingup.js"></script>
+	</body>
+</html>
