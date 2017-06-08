@@ -13,6 +13,7 @@
 		}
 		else if ($("input").val() == "4322"){
 			alert("Código correcto");
+			location.href = "driverService.html";
 		}
 	}
 	function alertCodigo () {
