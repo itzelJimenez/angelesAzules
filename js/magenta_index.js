@@ -17,9 +17,9 @@ function muestraBotones() {
 }
 
 function direccionaRegUsuario() {
-  window.location.assign("views/userSignUp.html")
+  window.location.assign("views/userInit.html")
 }
 
 function direccionaRegDriver() {
-  window.location.assign("views/driverSignUp.html")
+  window.location.assign("views/driverInit.html")
 }
