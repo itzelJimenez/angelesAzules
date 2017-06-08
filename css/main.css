@@ -249,6 +249,17 @@
 
 /* -----Clases Mariana-----*/
 
+<<<<<<< HEAD
+/* -----Clases Pari-----*/
+.driverConfirm-altura{
+  margin-top: 35%;
+}
+#validar{
+background-color: #0e8dd1;
+}
+
+/* -----Termina Clases Pari-----*/
+=======
 
 .white-text {
   color: white;
@@ -261,6 +272,7 @@
 }
 
 /*Termina Clases Mariana*/
+>>>>>>> 51290c29993935a0a3910bf5a39fcba8e89da083
 
 /*-------clases user-signup------*/
 .arrow-prev{
