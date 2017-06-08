@@ -83,6 +83,19 @@
 
 /* -----Clases Mariana-----*/
 
+
+.white-text {
+  color: white;
+}
+
+.bottom-space {
+  margin-bottom: 0;
+  width: 100%;
+  height: 40vh;
+}
+
+/*Termina Clases Mariana*/
+
 /*-------clases user-signup------*/
 .arrow-prev{
 	font-size: 3rem;
@@ -112,3 +125,4 @@
 	height: 50vh;
 	width: 100%;
 }
+
