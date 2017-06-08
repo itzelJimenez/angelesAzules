@@ -38,7 +38,9 @@
 .font-timberwolf {
   color: #d6d9ce;
 }
-
+.font-white{
+	color: #fff;
+}
 .index-background-color {
   width: 100vw;
   height: 100vh;
@@ -104,4 +106,9 @@
 
 .btn-driverService, .btn-driverServiceMap {
   margin: 5%;
+}
+ /*-----clases user-service-----*/
+.map-user-service{
+	height: 50vh;
+	width: 100%;
 }
