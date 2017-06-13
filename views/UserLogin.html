@@ -37,18 +37,50 @@
 							<label for="icon_password">Contraseña</label>
 						</div>
 					</div>
-					<div class="right">
-						<h3>
-							<button type="submit"  class="btn fondo-midnight-green font-timberwolf">
-								<i class="material-icons right">send</i>
-								Siguiente 
-							</button>
-						</h3>
+					<div >
+						<div id="fb-root"></div>
+						<div class="fb-login-button left" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>
+						<button type="submit"  class=" right btn fondo-midnight-green font-timberwolf">
+							<i class="material-icons right">send</i>
+							Siguiente 
+						</button>
+
 					</div>
+
 				</form>
 			</div>
 
 		</section>
+		<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9&appId=695792160622068";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		<script>
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId      : '695792160622068',
+					cookie     : true,
+					xfbml      : true,
+					version    : 'v2.8'
+				});
+				FB.AppEvents.logPageView();   
+			};
+
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+			FB.getLoginStatus(function(response) {
+				statusChangeCallback(response);
+			});
+		</script>
 		<script src="../js/jquery-3.2.1.min.js"></script>
 		<script src="../js/materialize.min.js"></script>
 		<script src="../js/sweetalert.min.js"></script>
