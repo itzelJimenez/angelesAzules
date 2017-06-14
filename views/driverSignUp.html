@@ -21,8 +21,22 @@
 		    </div>
 		</header>
 		<section class="container">
+				<div class="row">
+				  	<div class="input-field col s8 offset-s2">
+				    	<p>
+					      <input required="" type="checkbox" id="test1" class="validate" />
+					      <label for="test1">Quiero registrarme con Facebook</label>
+					    </p>
+				    </div>
+				</div>	
+				<div class="row">
+					<div class="col s2 offset-s4">
+						<div id="fb-root"></div>
+						<div class="fb-login-button left hide" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>
+					</div>
+				</div>
 				<section class="row driverSingup-div-titulo" id="cuentaConductor">
-				    <form class="col s8 offset-s2">
+				    <form class="col s8 offset-s2 ocultar" id="form-registro">
 					    <div class="row">
 					        <div class="input-field">
 					          <i class="material-icons prefix">account_circle</i>
@@ -57,8 +71,11 @@
 					          <input required="" id="icon_prefix" type="password" class="validate">
 					          <label for="icon_prefix">Contraseña</label>
 					        </div>
-					    </div>
-					    <div class="row">
+					    </div>	
+				      </div>
+				    </form>
+				    <section class="col s8 offset-s2">
+				    	<div class="row">
 					    	<div class="input-field">
 						    	<p>
 							      <input required="" type="checkbox" id="test5" class="validate" />
@@ -66,8 +83,8 @@
 							    </p>
 						    </div>
 					    </div>
-					    <div class="row hide" id="contBtnSubir">
-							<a href="#subirArchivos" class="waves-effect waves-light btn col offset-s4"><i class="material-icons right">cloud</i>Subir mis Documentos</a>
+					    <div class="row hide center-align" id="contBtnSubir">
+							<a href="#subirArchivos" class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>Subir mis Documentos</a>
 						</div>
 					    <div class="row">
 					    	<div class="input-field">
@@ -76,11 +93,10 @@
 							      <label for="test6">He leído y acepto los <a href="#terminos">Terminos y condiciones</a></label>
 							    </p>
 						    </div>
-					    </div>	
-				      </div>
-				    </form>
+					    </div>
+				    </section>
 				</section>
-				<div class="row valign-wrapper">
+				<div class="row col s2 offset-s4">
 					<span class="col s12 center-align">
 						<a href="driverConfirm.html" class="btn waves-effect" type="submit" id="enviarCodigo"><i class="material-icons right">send</i>Siguiente</a>
 					</span>
@@ -131,8 +147,28 @@
 			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Acepto</a>
 			    </div>
 			  </div>
+	  
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '484513741883792',
+		      cookie     : true,
+		      xfbml      : true,
+		      version    : 'v2.8'
+		    });
+		    FB.AppEvents.logPageView();   
+		  };
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
 	  <script src="../js/jquery-3.2.1.min.js"></script>
 	  <script src="../js/materialize.min.js"></script>
 	  <script src="../js/driversingup.js"></script>
 	</body>
 </html>
+Contact GitHub 
